@@ -22,4 +22,22 @@
       <version>1.0.0</version>
     </dependency>
   </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>net.alchim31.maven</groupId>
+        <artifactId>scala-maven-plugin</artifactId>
+        <version>3.1.0</version>
+        <configuration>
+          <launchers>
+            <launcher>
+              <id>Test</id>
+              <mainClass>Test$</mainClass>
+            </launcher>
+          </launchers>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>

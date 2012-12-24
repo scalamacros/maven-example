@@ -36,12 +36,6 @@
         <configuration>
           <recompileMode>incremental</recompileMode>
           <useZincServer>true</useZincServer>
-          <launchers>
-            <launcher>
-              <id>Test</id>
-              <mainClass>Test$</mainClass>
-            </launcher>
-          </launchers>
         </configuration>
         <executions>
           <execution>

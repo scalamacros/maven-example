@@ -33,7 +33,7 @@
           <launchers>
             <launcher>
               <id>Test</id>
-              <mainClass>Test$</mainClass>
+              <mainClass>Test</mainClass>
             </launcher>
           </launchers>
         </configuration>
